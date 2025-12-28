@@ -41,4 +41,3 @@ def solve_blind() -> bytes | None:
 
 if __name__ == "__main__":
     print(solve_blind())
-
