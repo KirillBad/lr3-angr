@@ -1,0 +1,9 @@
+name: reverse
+
+services:
+  angr:
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - ./main.py:/app/main.py
+    command: uv run main.py
